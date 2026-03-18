@@ -36,7 +36,8 @@ The user has an Emacs server running. **All** Emacs operations must go through `
 ## Rules
 
 - Always use `emacsclient`, never `emacs` or `emacs --batch`.
+- Run `emacsclient` commands via the Bash tool.
 - Use `--no-wait` when opening files so the command returns immediately.
 - Use `--eval` when evaluating elisp.
 - Always format `--eval` elisp across multiple lines with proper indentation.
-- Run `emacsclient` commands via the Bash tool.
+- When evaluating elisp, do not unintentionally disturb the user's currently selected buffer, so use `save-excursion`, `with-current-buffer`, `find-file-noselect` etc as appropriate.
