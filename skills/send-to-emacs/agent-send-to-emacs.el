@@ -1,9 +1,9 @@
 ;;; agent-send-to-emacs.el --- Send agent output to an Emacs buffer -*- lexical-binding: t; -*-
 
 ;;; Commentary:
-;; Loaded by the send-to-emacs Claude skill via emacsclient.
-;; Provides `agent-send-to-emacs' for placing Claude output into a
-;; named buffer in the running Emacs session.
+;; Loaded by the send-to-emacs agent skill via emacsclient. Provides
+;; `agent-send-to-emacs' for placing content into a named buffer in
+;; the running Emacs session.
 
 ;;; Code:
 
