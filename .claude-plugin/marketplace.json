@@ -15,6 +15,7 @@
       "source": "./",
       "strict": false,
       "skills": [
+        "./skills/buffer",
         "./skills/describe",
         "./skills/dired",
         "./skills/emacsclient",
